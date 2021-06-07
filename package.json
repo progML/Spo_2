@@ -1,0 +1,19 @@
+{
+  "name": "spo2-js",
+  "version": "0.0.1",
+  "description": "Js CLI for spo2-lib",
+  "main": "index.js",
+  "scripts": {
+    "start": "node spo2.js",
+    "build": "cmake-js -O ./build -d ./native compile"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "cmake-js": "^6.1.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "node-addon-api": "^3.2.0"
+  }
+}
